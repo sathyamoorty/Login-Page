@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="https://kit.fontawesome.com/cd57280301.js" crossorigin="anonymous"></script>
+    <style>
+        body{
+            background-image: url("../img/img5.jfif");
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        #log{
+            border-radius: 10px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-top: 150px;
+            border: 1px solid black;
+            width: 400px;
+            margin-left: 450px;
+            height: 350px;
+            box-shadow: 0px 5px 5px 5px;
+            background-color: transparent;
+           
+        }
+        #head{
+            text-align: center;
+            margin-top: 0px;
+            /* border: 1px solid black; */
+            color: white;
+        }
+        #uname{
+            margin-left: 30px;    
+        }
+        #pass{
+            margin-left: 87px;
+            margin-top: 10px;
+        }
+        #cpass{
+            margin-left: 23px;
+            margin-top: 10px;
+        }
+        #sub{
+            margin-top: 20px;
+            margin-left: 20px;
+        }
+        .same{
+            color: rgb(0, 0, 0);
+            font-size: large;
+        }
+        #eye{
+            position: absolute;
+            left: 800px;
+            top: 345px;
+            color: black;
+        }
+        #footer{
+            position: absolute;
+            left: 550px;
+            top: 450px;
+           /* margin-left: 550px;
+           margin-top:0px; */
+        }
+        #login{
+            color: black;
+            font-size: large;
+        }
+
+
+    </style>  
+</head>
+<body>
+    <div id="log">
+        <form action="">
+            <table onclick="focus">
+                <thead>
+             <h2 id="head">LogIn</h2>
+             <tr>
+                <td><label for="Sname" class="same">Student Username:</label>
+                <input type="text" id="uname"><br>
+                </td>
+                <div id="con1"></div>
+            </tr>
+             <tr>
+                <td>
+                    <label for="Cpass" class="same" id="password">Confirm Password :</label>
+                   <input type="password" id="cpass"><i class="fa-solid fa-eye" id="eye"></i>
+                </td><br>
+            </tr>
+            <tr>
+               <td>
+                <input type="submit" id="sub">
+            </td>
+            </tr>
+                </thead>
+            </table>
+      </form>
+    </div>
+    <div id="footer">
+        <a href="../html/signup.html" id="login">Create Account ? Sign-up-me?</a>
+    </div>
+
+
+
+    <script src="../js/login.js"></script>
+</body>
+</html>
